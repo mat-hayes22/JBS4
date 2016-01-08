@@ -5,7 +5,7 @@ import org.jmock.integration.junit4.JUnitRuleMockery;
 import org.junit.Rule;
 import org.junit.Test;
 
-public class sellOneItemControllerTest {
+public class SellOneItemControllerTest {
 
     @Rule
     public JUnitRuleMockery context = new JUnitRuleMockery();
@@ -44,6 +44,19 @@ public class sellOneItemControllerTest {
 
     }
 
+    @Test
+    public void emptyBarcode() throws Exception {
+        final Display display = context.mock(Display.class);
+
+        context.checking(new Expectations(){{
+            oneOf(display).displayEmptyBarcodeMessage();
+        }});
+
+        SaleController saleController = new SaleController(null, display);
+        saleController.onBarcode("");
+
+    }
+
     public interface Catalog{
         Price findPrice(String price);
     }
@@ -51,7 +64,9 @@ public class sellOneItemControllerTest {
     public interface Display{
         void displayPrice(Price price);
 
-        void displayProductNotFound(String with);
+        void displayProductNotFound(String barcode);
+
+        void displayEmptyBarcodeMessage();
     }
 
     public static class SaleController{
@@ -64,23 +79,17 @@ public class sellOneItemControllerTest {
         }
 
         public void onBarcode(String barcode) {
+            if ("".equals(barcode) )
+            {
+                display.displayEmptyBarcodeMessage();
+                return;
+            }
             Price p = catalog.findPrice(barcode);
             if (p == null)
                 display.displayProductNotFound(barcode);
             else
                 display.displayPrice(p);
 
-        }
-    }
-
-    public static class Price{
-        public static Price cents(int centsValue){
-            return new Price();
-        }
-
-        @Override
-        public String toString() {
-            return "a Price";
         }
     }
 
