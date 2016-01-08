@@ -1,7 +1,7 @@
 package mh.pos.test;
 
-
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 
 public class FindPriceInMemoryCataglogTest extends FindPriceCatalogContract {
@@ -14,7 +14,12 @@ public class FindPriceInMemoryCataglogTest extends FindPriceCatalogContract {
 
     @Override
     protected InMemoryCatalog catalogWith(String barcode, Price price) {
-        return new InMemoryCatalog(Collections.singletonMap(barcode, price));
+        return new InMemoryCatalog(new HashMap<String, Price>()
+        {{
+            put("definitely not " + barcode, Price.cents(0));
+            put(barcode, price);
+            put("again definitely not " + barcode, Price.cents(1000000));
+        }});
     }
 
     public static class InMemoryCatalog implements Catalog {
@@ -28,8 +33,6 @@ public class FindPriceInMemoryCataglogTest extends FindPriceCatalogContract {
         public Price findPrice(String barcode) {
             return pricesByBarCode.get(barcode);
         }
-
-
     }
 
 }
