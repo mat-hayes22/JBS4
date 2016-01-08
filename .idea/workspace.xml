@@ -51,14 +51,14 @@
       <file leaf-file-name="FindPriceInMemoryCataglogTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5747331">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.727758">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,6 +215,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test/lib" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -669,7 +670,7 @@
       <updated>1452184796549</updated>
       <workItem from="1452184800041" duration="1246000" />
       <workItem from="1452231929754" duration="2257000" />
-      <workItem from="1452249610806" duration="7381000" />
+      <workItem from="1452249610806" duration="8081000" />
     </task>
     <task id="LOCAL-00001" summary="added libraries">
       <created>1452185838279</created>
@@ -707,16 +708,16 @@
       <option name="project" value="LOCAL" />
       <updated>1452269490211</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented Catalog&#10;">
+      <created>1452269553990</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1452269553990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2016.01.08 at 11h 08m 29s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2016.01.08 at 11h 09m 29s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Unnamed - 2016.01.08 at 11h 13m 03s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
@@ -741,9 +742,15 @@
     <history-entry file="Unnamed - 2016.01.08 at 16h 11m 07s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2016.01.08 at 16h 18m 08s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Unnamed - 2016.01.08 at 16h 22m 44s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10884000" />
+    <option name="totallyTimeSpent" value="11584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
@@ -792,7 +799,8 @@
     <MESSAGE value="can find a price if the product is found" />
     <MESSAGE value="not finding a price responds correctly with not found (i.e. null)" />
     <MESSAGE value="in memory catatlog confirms to Catalog interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="in memory catatlog confirms to Catalog interface" />
+    <MESSAGE value="implemented Catalog&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Catalog&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -863,14 +871,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5747331">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.727758">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
           </folding>
         </state>
       </provider>
