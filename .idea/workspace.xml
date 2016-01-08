@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb8923db-93e0-4549-8799-4a5b9b85d4ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/Catalog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/sellOneItemControllerTest.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/sellOneItemControllerTest.java" />
     </list>
     <ignored path="JBS4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,14 +51,14 @@
       <file leaf-file-name="FindPriceInMemoryCataglogTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42348754">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.5747331">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +100,8 @@
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/sellOneItemControllerTest.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/SellOneItemControllerTest.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/Price.java" />
-        <option value="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/Catalog.java" />
+        <option value="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" />
       </list>
     </option>
   </component>
@@ -671,7 +669,7 @@
       <updated>1452184796549</updated>
       <workItem from="1452184800041" duration="1246000" />
       <workItem from="1452231929754" duration="2257000" />
-      <workItem from="1452249610806" duration="7311000" />
+      <workItem from="1452249610806" duration="7381000" />
     </task>
     <task id="LOCAL-00001" summary="added libraries">
       <created>1452185838279</created>
@@ -703,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452269363554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="in memory catatlog confirms to Catalog interface">
+      <created>1452269490211</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452269490211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -739,7 +743,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10814000" />
+    <option name="totallyTimeSpent" value="10884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
@@ -787,7 +791,8 @@
     <MESSAGE value="returned product not found if product not found..." />
     <MESSAGE value="can find a price if the product is found" />
     <MESSAGE value="not finding a price responds correctly with not found (i.e. null)" />
-    <option name="LAST_COMMIT_MESSAGE" value="not finding a price responds correctly with not found (i.e. null)" />
+    <MESSAGE value="in memory catatlog confirms to Catalog interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="in memory catatlog confirms to Catalog interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,14 +863,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42348754">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.5747331">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
           </folding>
         </state>
       </provider>
