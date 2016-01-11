@@ -16,7 +16,7 @@ public class SellOneItemControllerTest {
 
        final Catalog catalog =  context.mock(Catalog.class);
        final Display display = context.mock(Display.class);
-       final Price irrelevantPrice = Price.cents(795);
+       final Price irrelevantPrice = new Price(795);
 
         context.checking(new Expectations() {{
             allowing(catalog).findPrice(with("12345"));
@@ -55,14 +55,6 @@ public class SellOneItemControllerTest {
         SaleController saleController = new SaleController(null, display);
         saleController.onBarcode("");
 
-    }
-
-    public interface Display{
-        void displayPrice(Price price);
-
-        void displayProductNotFound(String barcode);
-
-        void displayEmptyBarcodeMessage();
     }
 
     public static class SaleController{

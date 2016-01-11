@@ -9,16 +9,16 @@ public class FindPriceInMemoryCataglogTest extends FindPriceCatalogContract {
     @Override
     protected InMemoryCatalog catalogWithout(String barcodeToAvoid) {
         return new InMemoryCatalog(Collections.singletonMap(
-                            "anything but " + barcodeToAvoid, Price.cents(0)));
+                            "anything but " + barcodeToAvoid, new Price(0)));
     }
 
     @Override
     protected InMemoryCatalog catalogWith(String barcode, Price price) {
         return new InMemoryCatalog(new HashMap<String, Price>()
         {{
-            put("definitely not " + barcode, Price.cents(0));
+            put("definitely not " + barcode, new Price(0));
             put(barcode, price);
-            put("again definitely not " + barcode, Price.cents(1000000));
+            put("again definitely not " + barcode, new Price(1000000));
         }});
     }
 
