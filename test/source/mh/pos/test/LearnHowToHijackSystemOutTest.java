@@ -36,6 +36,19 @@ public class LearnHowToHijackSystemOutTest {
                 lines(canvas.toString("UTF-8")));
     }
 
+    @Test
+    public void multipleLinesOfText() throws Exception {
+        ByteArrayOutputStream canvas = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(canvas));
+
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+
+        Assert.assertEquals(
+                Arrays.asList("1","2","3"),
+                lines(canvas.toString("UTF-8")));
+    }
 
 
 }

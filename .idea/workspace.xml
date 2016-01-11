@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb8923db-93e0-4549-8799-4a5b9b85d4ee" name="Default" comment="testing hijacking console out">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/DisplayMessagesToConsoleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/MHDisplayPricesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/TextUtilities.java" />
+    <list default="true" id="fb8923db-93e0-4549-8799-4a5b9b85d4ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceCatalogContract.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceCatalogContract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/FindPriceInMemoryCataglogTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/Price.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/Price.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/sellOneItemControllerTest.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/sellOneItemControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java" afterPath="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java" />
     </list>
     <ignored path="JBS4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DisplayMessagesToConsoleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DisplayMessagesToConsoleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/DisplayMessagesToConsoleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3716916">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LearnHowToHijackSystemOutTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.504363">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +91,8 @@
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToDebugAndUseSplit.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/Price.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/DisplayMessagesToConsoleTest.java" />
-        <option value="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java" />
         <option value="$PROJECT_DIR$/test/source/mh/pos/test/TextUtilities.java" />
+        <option value="$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java" />
       </list>
     </option>
   </component>
@@ -675,7 +679,7 @@
       <workItem from="1452249610806" duration="13723000" />
       <workItem from="1452501133977" duration="3535000" />
       <workItem from="1452505537137" duration="1448000" />
-      <workItem from="1452507005821" duration="1228000" />
+      <workItem from="1452507005821" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="added libraries">
       <created>1452185838279</created>
@@ -743,13 +747,16 @@
       <option name="project" value="LOCAL" />
       <updated>1452274004379</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moved lines to text utils">
+      <created>1452508250117</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1452508250117</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LearnHowToHijackSystemOutTest_singleLineOfText - 2016.01.11 at 10h 18m 58s.xml">
-      <configuration name="LearnHowToHijackSystemOutTest.singleLineOfText" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Unnamed - 2016.01.11 at 10h 19m 27s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
@@ -777,9 +784,12 @@
     <history-entry file="Unnamed - 2016.01.11 at 10h 30m 18s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Unnamed - 2016.01.11 at 10h 33m 35s.xml">
+      <configuration name="Unnamed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23437000" />
+    <option name="totallyTimeSpent" value="23617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -792,7 +802,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="29" y="687" width="1876" height="296" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="29" y="687" width="1876" height="296" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17857143" sideWeight="0.49417636" order="0" side_tool="false" content_ui="combo" />
@@ -832,7 +842,8 @@
     <MESSAGE value="Confirmed that in memory catalog respects symantics of catalog" />
     <MESSAGE value="extracted tests for catalog into own container" />
     <MESSAGE value="testing hijacking console out" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing hijacking console out" />
+    <MESSAGE value="moved lines to text utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved lines to text utils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,10 +900,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -941,10 +948,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1132,20 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64572424">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/Display.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059336822">
@@ -1174,8 +1163,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/DisplayMessagesToConsoleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3716916">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/source/mh/pos/test/LearnHowToHijackSystemOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.504363">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
